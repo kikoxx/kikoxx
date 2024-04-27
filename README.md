@@ -1,5 +1,5 @@
 
-
+```python
  .--..--..--..--..--..--..--..--..--..--. 
 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
 \ \/\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ \/ /
@@ -16,7 +16,7 @@
 / /\ \.. \.. \.. \.. \.. \.. \.. \.. \/\ \
 \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
-
+```
 
 ## Ethical Hacker | Security Researcher | Tech Enthusiast
 
@@ -24,7 +24,7 @@ Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and c
 
 - 🌱 **Learning:** Rust and security related topics!
 - 👯 **Collaborating:** Open to all kinds of security related projects.
-- 💬 **Ask Me About:** Anything related to cybersecurity, technology, life.
+- 💬 **Ask Me About:** Anything related to cybersecurity, technology, life...
 - 📫 **Reach Me At:** Not open to socials currently 
 - ⚡ **Fun Fact:** There is no such thing as failure! P.S unless you stop trying ~
 
