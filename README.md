@@ -21,7 +21,6 @@
 ## Ethical Hacker | Security Researcher | Tech Enthusiast
 
 Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and continuous learning in the ever-evolving world of technology.
-
 - 🌱 **Learning:** Rust and security related topics!
 - 👯 **Collaborating:** Open to all kinds of security related projects.
 - 💬 **Ask Me About:** Anything related to cybersecurity, technology, life...
@@ -80,5 +79,7 @@ Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and c
 - **Hacking Techniques:** [HackTricks](https://book.hacktricks.xyz/)
 - **Privilege Escalation:** [GTFOBins](https://gtfobins.github.io/)
 - **Reverse Shells:** [RevShells](https://www.revshells.com/)
+### My Gitbook!
+- **Beginner to linux** https://kikour.gitbook.io/intro-to-linux/ 
 
 <img src="https://i.imgur.com/6tu60vO.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
