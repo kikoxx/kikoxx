@@ -79,7 +79,7 @@ Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and c
 - **Hacking Techniques:** [HackTricks](https://book.hacktricks.xyz/)
 - **Privilege Escalation:** [GTFOBins](https://gtfobins.github.io/)
 - **Reverse Shells:** [RevShells](https://www.revshells.com/)
-### My Gitbook!
+### 🔥My Gitbook!
 - **Beginner to linux** https://kikour.gitbook.io/intro-to-linux/ 
 
 <img src="https://i.imgur.com/6tu60vO.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
