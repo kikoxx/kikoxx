@@ -74,7 +74,7 @@ Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and c
 [batch-url]: https://en.wikipedia.org/wiki/Batch_file
 
 ### 📚 Essential Resources for Penetration Testers
-- **Cheat Sheets:** [Pentest Book by Six2dez](https://pentestbook.six2dez.com/)
+- **Cheat Sheets:** [Pentest Book by Six2dez](https://pentestbook.six2dez.com/) or [Pentest checklist by darshan](https://darshan-2.gitbook.io/penetration-testing-checklist)
 - **OSINT Tools:** [OSINT Framework](https://osintframework.com/)
 - **Hacking Techniques:** [HackTricks](https://book.hacktricks.xyz/)
 - **Privilege Escalation:** [GTFOBins](https://gtfobins.github.io/)
