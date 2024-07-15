@@ -18,10 +18,10 @@
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
 ```
 
-## Ethical Hacker | Security Researcher | Tech Enthusiast
+## Pentester | Security Researcher | Tech Enthusiast
 
 Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and continuous learning in the ever-evolving world of technology.
-- 🌱 **Learning:** Rust and security related topics!
+- 🌱 **Learning:** Continuing with pentesting, might start with bug bounty soon xD
 - 👯 **Collaborating:** Open to all kinds of security related projects.
 - 💬 **Ask Me About:** Anything related to cybersecurity, technology, life...
 - 📫 **Reach Me At:** ~fate
