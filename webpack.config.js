@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',  // Make sure this is set to production
-  entry: './src/index.js',  // Your main entry point
+  mode: 'production',  // Ensure this is set to 'production'
+  entry: './src/index.js',  // Your entry point
   output: {
     path: path.resolve(__dirname, 'dist'),  // Output directory
     filename: 'bundle.js'  // Output file name
