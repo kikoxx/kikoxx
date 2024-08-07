@@ -1,0 +1,52 @@
+/* components/Profile.css */
+.profile-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.profile-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-username {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.profile-title {
+  font-size: 1rem;
+  color: #777;
+}
+
+.profile-links {
+  margin-top: 1rem;
+}
+
+.social-link {
+  color: #333;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #007bff;
+}

@@ -1,0 +1,11 @@
+.package-lock.json
+package-lock.json
+package.json
+node_modules
+.babelrc
+bundle.js.LICENSE.txt
+webpack.config.js
+vercel.json
+bundle.js
+blurredTears.jpg
+background.jpg
