@@ -4,8 +4,8 @@
   "description": "Kikour loves fireworks.",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -44,9 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": ">=14.0.0"
   },
   "author": "",
   "license": "MIT"
