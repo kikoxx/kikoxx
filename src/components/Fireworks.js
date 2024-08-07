@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import backgroundImg from '../assets/background.jpg'; // Import the image
 
 const FireworksComponent = () => {
   const containerRef = useRef(null);
@@ -14,25 +15,21 @@ const FireworksComponent = () => {
   return (
     <div 
       ref={containerRef} 
-      style={styles.container}
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundImage: `url(${backgroundImg})`, // Use the imported image
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
     >
       {/* Your content here */}
     </div>
   );
-};
-
-const styles = {
-  container: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    backgroundImage: 'url(/img/background.jpg)', // Ensure this path is correct
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  },
 };
 
 export default FireworksComponent;

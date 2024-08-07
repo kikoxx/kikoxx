@@ -3,13 +3,16 @@
     "builds": [
       {
         "src": "webpack.config.js",
-        "use": "@vercel/node"
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/public/$1"
+        "dest": "/$1"
       }
     ]
   }

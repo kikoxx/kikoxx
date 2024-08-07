@@ -1,17 +1,17 @@
-// ProfileDisplay.js
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { SimpleIconsHackthebox } from './SimpleIconsHackthebox'; // Import your icon component
+
+// Import the image using the correct path
+import blurredTears from '../assets/blurredTears.jpg';
 
 const ProfileDisplay = () => {
   React.useEffect(() => {
@@ -41,7 +41,7 @@ const ProfileDisplay = () => {
             <Grid item xs={12} sm={4} container justifyContent="center">
               <Avatar
                 alt="Kiko"
-                src="/img/blurredTears.jpg"
+                src={blurredTears} // Use the imported image here
                 sx={{ width: 120, height: 120 }}
               />
             </Grid>
@@ -67,9 +67,6 @@ const ProfileDisplay = () => {
             </Grid>
           </Grid>
         </CardContent>
-        {/* <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions> */}
       </Card>
     </Box>
   );

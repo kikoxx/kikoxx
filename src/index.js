@@ -14,21 +14,41 @@ const particlesInit = async (main) => {
 ReactDOM.render(
   <Router>
     <div>
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={{
-          preset: 'fireworks',
-        }}
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%',
-          top: 0,
-          left: 0,
-          zIndex: -1, // Ensure particles are in the background
-        }}
-      />
+    <Particles
+  id="tsparticles"
+  init={particlesInit}
+  options={{
+    preset: 'fireworks',
+    particles: {
+      number: {
+        value: 50,
+      },
+      size: {
+        value: 3,
+      },
+      opacity: {
+        value: 0.5,
+      },
+    },
+    interactivity: {
+      events: {
+        onhover: {
+          enable: true,
+          mode: 'repulse',
+        },
+      },
+    },
+  }}
+  style={{
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    top: 0,
+    left: 0,
+    zIndex: -1,
+  }}
+/>
+
       <App />
     </div>
   </Router>,
