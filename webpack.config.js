@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',  // Ensure this is set correctly for your deployment
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -25,8 +25,5 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
-  },
-  resolve: {
-    extensions: ['.js', '.jsx'],
   },
 };
