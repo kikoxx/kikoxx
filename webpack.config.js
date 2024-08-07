@@ -1,28 +1,32 @@
-// const path = require('path');
+const path = require('path');
 
-// module.exports = {
-//   mode: 'production',  // Ensure this is set to 'production'
-//   entry: './src/index.js',  // Your entry point
-//   output: {
-//     path: path.resolve(__dirname, 'dist'),  // Output directory
-//     filename: 'bundle.js'  // Output file name
-//   },
-//   module: {
-//     rules: [
-//       {
-//         test: /\.js$/,
-//         exclude: /node_modules/,
-//         use: {
-//           loader: 'babel-loader',
-//           options: {
-//             presets: ['@babel/preset-env', '@babel/preset-react'],
-//           },
-//         },
-//       },
-//       {
-//         test: /\.css$/,
-//         use: ['style-loader', 'css-loader'],
-//       },
-//     ],
-//   },
-// };
+module.exports = {
+  mode: 'production',
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/',  // Ensure this is set correctly for your deployment
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+          },
+        },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
+};
