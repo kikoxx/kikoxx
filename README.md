@@ -18,7 +18,7 @@
  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--' 
 ```
 
-## Pentester | Security Researcher | Tech Enthusiast
+## Pentester | Bug Bounty Hunter | Security Researcher
 
 Welcome to my GitHub! I'm passionate about cybersecurity, ethical hacking, and continuous learning in the ever-evolving world of technology.
 - **Learning:** Continuing with pentesting, might start with bug bounty soon xD
